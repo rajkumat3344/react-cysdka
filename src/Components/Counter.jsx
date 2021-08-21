@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import CounterButton from '../Components/CounterButton';
-import './Counter.css';
+
 class Counter extends Component {
   render = () => {
     return (

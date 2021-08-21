@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import './Counter.css';
 class CounterButton extends Component {
   //Define initial state in constructor
   //state --> counter set to 0
