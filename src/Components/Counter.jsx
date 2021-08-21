@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Counter.css';
 
 export default class Counter extends Component {
   //Define initial state in constructor

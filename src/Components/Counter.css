@@ -1,0 +1,8 @@
+button {
+  background-color: rgba(51, 151, 73, 0.562);
+}
+.count {
+  background-color: crimson;
+  color: white;
+  margin-left: 10px;
+}
