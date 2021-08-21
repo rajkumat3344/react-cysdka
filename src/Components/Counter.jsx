@@ -17,26 +17,16 @@ export default class Counter extends Component {
     return (
       <div className="counter">
         <button className="btn1" onClick={this.increment}>
-          +1
+          +{this.props.by}
         </button>
         <span className="count">{this.state.counter}</span>
-        <button className="btn2" onClick={this.decrement}>
-          -1
-        </button>
       </div>
     );
   };
   increment = () => {
     //update state --> counter++
     this.setState({
-      counter: this.state.counter + 1
-    });
-  };
-
-  decrement = () => {
-    //update state --> counter--
-    this.setState({
-      counter: this.state.counter - 1
+      counter: this.state.counter + this.props.by
     });
   };
 }
