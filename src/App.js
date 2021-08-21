@@ -1,6 +1,6 @@
 import React from 'react';
 import Counter from './Components/Counter';
-import './style.css';
+// import './style.css';
 
 export default function App() {
   return (
