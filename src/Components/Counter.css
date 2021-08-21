@@ -1,10 +1,9 @@
 .btn1 {
   background-color: rgba(51, 151, 73, 0.562);
+  font-size: large;
+  border-radius: 1rem;
 }
-.btn2 {
-  background-color: rgba(255, 0, 255, 0.589);
-  margin-left: 2rem;
-}
+
 .count {
   background-color: crimson;
   color: white;
